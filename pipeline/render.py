@@ -13,7 +13,7 @@ spec.json:
   "outro_caption": "HASTA MAÑANA"
 }
 
-Hace: voz con ElevenLabs por frase (con pausas naturales), elige planos del catálogo por etiquetas
+Hace: voz con ElevenLabs en una sola toma (entonación uniforme; tiempos de cada frase por alineado), elige planos del catálogo por etiquetas
 (sin repetir dentro del vídeo y priorizando los menos usados), quita las franjas negras, recorta a 9:16
 con un zoom suave, subtítulos con Inter Display, música con ducking bajo la voz y cierre animado.
 """
@@ -55,17 +55,32 @@ def read_key(path):
     return "".join(raw.split())
 
 
-def tts(text, key, voice_id, model, dest):
-    if dest.exists():
-        return dest
-    body = json.dumps({"text": text, "model_id": model,
-                       "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35}}).encode()
-    req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format=mp3_44100_128",
-        data=body, headers={"xi-api-key": key, "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r, open(dest, "wb") as f:
-        f.write(r.read())
-    return dest
+def tts_full(lines, key, voice_id, model, dest_mp3, dest_json):
+    """Genera TODO el guion en una sola toma (entonación uniforme) y devuelve
+    los tiempos de inicio/fin de cada frase a partir del alineado por caracteres."""
+    import base64
+    text = " ".join(l.strip() for l in lines)
+    if not (dest_mp3.exists() and dest_json.exists()):
+        body = json.dumps({
+            "text": text, "model_id": model,
+            "voice_settings": {"stability": 0.62, "similarity_boost": 0.8, "style": 0.12,
+                               "use_speaker_boost": True}}).encode()
+        req = urllib.request.Request(
+            f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?output_format=mp3_44100_128",
+            data=body, headers={"xi-api-key": key, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=180) as r:
+            data = json.loads(r.read())
+        dest_mp3.write_bytes(base64.b64decode(data["audio_base64"]))
+        dest_json.write_text(json.dumps(data["alignment"]))
+    al = json.loads(dest_json.read_text())
+    starts, ends = al["character_start_times_seconds"], al["character_end_times_seconds"]
+    spans, pos = [], 0
+    for l in lines:
+        l = l.strip()
+        a, b = pos, pos + len(l) - 1
+        spans.append((starts[min(a, len(starts) - 1)], ends[min(b, len(ends) - 1)]))
+        pos += len(l) + 1
+    return spans
 
 
 # ---------- selección de planos ----------
@@ -191,17 +206,13 @@ def main():
         except Exception as e:                               # sin música si no se puede descargar
             print("sin música:", e)
 
-    # 1) voz por frase
+    # 1) voz: una sola toma para todo el guion
     key = read_key(a.key_file)
-    timeline, t = [], LEAD_IN
-    voice_files = []
-    for i, line in enumerate(spec["lines"]):
-        mp3 = tts(line["text"], key, cfg["voice_id"], cfg["tts_model"], work / f"line{i}.mp3")
-        d = probe_duration(mp3)
-        timeline.append((t, t + d))
-        voice_files.append((mp3, t))
-        t += d + LINE_GAP
-    voice_end = t - LINE_GAP + 0.35
+    spans = tts_full([l["text"] for l in spec["lines"]], key, cfg["voice_id"], cfg["tts_model"],
+                     work / "voice.mp3", work / "voice_alignment.json")
+    timeline = [(LEAD_IN + st, LEAD_IN + en) for st, en in spans]
+    voice_files = [(work / "voice.mp3", LEAD_IN)]
+    voice_end = LEAD_IN + probe_duration(work / "voice.mp3") + 0.2
 
     # 2) planos
     used, plan = set(), []
@@ -232,7 +243,7 @@ def main():
     inputs, filt = [], []
     for j, (mp3, st) in enumerate(voice_files):
         inputs += ["-i", str(mp3)]
-        filt.append(f"[{j}:a]aresample=44100,adelay={int(st*1000)}|{int(st*1000)},volume=1.6[v{j}]")
+        filt.append(f"[{j}:a]aresample=44100,adelay={int(st*1000)}|{int(st*1000)},volume=1.5[v{j}]")
     n = len(voice_files)
     filt.append("".join(f"[v{j}]" for j in range(n)) + f"amix=inputs={n}:normalize=0,apad=whole_dur={total:.2f}[voice]")
     if music:
