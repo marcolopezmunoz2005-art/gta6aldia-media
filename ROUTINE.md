@@ -1,12 +1,12 @@
 # Rutina diaria de GTA 6 al Día (la sigue la tarea programada)
 
-Repo: marcolopezmunoz2005-art/gta6aldia-media. Clave de ElevenLabs: en el ordenador de Marco,
-C:\Users\marco\OneDrive\Documentos\gta6aldia\elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo, ni a mensajes).
+Repo: marcolopezmunoz2005-art/gta6aldia-media. Clave de ElevenLabs: en el repo PRIVADO marcolopezmunoz2005-art/gta6aldia-privado,
+archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo público, ni a mensajes, ni a logs).
 
 ## 0. Preparar
 1. add_repo (owner marcolopezmunoz2005-art, repo gta6aldia-media, access push) y clonar en /home/claude/gta6aldia-media.
 2. Leer state/playbook.md, state/learning.md, state/log.md, state/facts.md.
-3. device_stage_files de la clave → /mnt/user-data/uploads/gta6aldia/elevenlabs_key.txt. Si el ordenador no responde: avisar a Marco (push) y parar.
+3. add_repo (gta6aldia-privado, access read) y clonar en /home/claude/gta6aldia-privado. La clave queda en /home/claude/gta6aldia-privado/elevenlabs_key.txt. Si no se puede leer: avisar a Marco y parar.
 
 ## 1. Medir (gratis primero)
 - vidiq_social_post_list (últimos 7 días, completed) para tener las publicaciones.
@@ -26,7 +26,7 @@ C:\Users\marco\OneDrive\Documentos\gta6aldia\elevenlabs_key.txt (no copiarla nun
 ## 4. Guiones y montaje
 - Para cada vídeo, un spec en specs/AAAA-MM-DD_x.json (formato en pipeline/render.py): 4–5 frases, ≤ 300 caracteres de voz en total,
   frase 1 = gancho; última frase = cierre o pregunta; captions cortas; tags del catálogo (pipeline/catalog.json).
-- Renderizar: python3 pipeline/render.py specs/X.json --key-file /mnt/user-data/uploads/gta6aldia/elevenlabs_key.txt --work /home/claude/work --usage state/usage.json --out videos/X.mp4
+- Renderizar: python3 pipeline/render.py specs/X.json --key-file /home/claude/gta6aldia-privado/elevenlabs_key.txt --work /home/claude/work --usage state/usage.json --out videos/X.mp4
 - Revisar cada vídeo: sacar 8 fotogramas con ffmpeg y mirarlos (textos completos, sin franjas, sin rótulos de Rockstar).
   Si algo falla, corregir y volver a renderizar.
 - Commit y push de videos/, specs/ y state/ (git -c push.negotiate=true push).
