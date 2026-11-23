@@ -1,0 +1,721 @@
+[
+ {
+  "id": "L_01",
+  "src": "launch",
+  "start": 2.12,
+  "end": 6.18,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "map",
+   "arrival"
+  ]
+ },
+ {
+  "id": "L_02",
+  "src": "launch",
+  "start": 6.42,
+  "end": 9.18,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "chars",
+   "boat"
+  ]
+ },
+ {
+  "id": "L_03",
+  "src": "launch",
+  "start": 9.42,
+  "end": 11.11,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "buildings",
+   "boat"
+  ]
+ },
+ {
+  "id": "L_04",
+  "src": "launch",
+  "start": 11.35,
+  "end": 13.41,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "chars",
+   "phone"
+  ]
+ },
+ {
+  "id": "L_05",
+  "src": "launch",
+  "start": 13.65,
+  "end": 14.38,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "map",
+   "nature",
+   "water"
+  ]
+ },
+ {
+  "id": "L_08",
+  "src": "launch",
+  "start": 25.82,
+  "end": 27.05,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "cars",
+   "chars"
+  ]
+ },
+ {
+  "id": "L_09",
+  "src": "launch",
+  "start": 27.29,
+  "end": 28.61,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "action",
+   "nature"
+  ]
+ },
+ {
+  "id": "L_10",
+  "src": "launch",
+  "start": 28.85,
+  "end": 32.01,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "interior",
+   "alarm",
+   "dark"
+  ]
+ },
+ {
+  "id": "L_11",
+  "src": "launch",
+  "start": 32.25,
+  "end": 32.85,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "action"
+  ]
+ },
+ {
+  "id": "L_12",
+  "src": "launch",
+  "start": 33.09,
+  "end": 34.28,
+  "crop": "1920:948:0:72",
+  "tags": [
+   "interior",
+   "alarm",
+   "dark"
+  ]
+ },
+ {
+  "id": "L_13",
+  "src": "launch",
+  "start": 34.52,
+  "end": 35.68,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "robbery",
+   "money",
+   "doors",
+   "interior"
+  ]
+ },
+ {
+  "id": "L_15",
+  "src": "launch",
+  "start": 37.45,
+  "end": 38.21,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "nightlife"
+  ]
+ },
+ {
+  "id": "L_16",
+  "src": "launch",
+  "start": 38.45,
+  "end": 39.65,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "cars",
+   "plane"
+  ]
+ },
+ {
+  "id": "L_17",
+  "src": "launch",
+  "start": 39.89,
+  "end": 41.55,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "cars",
+   "chars"
+  ]
+ },
+ {
+  "id": "L_18",
+  "src": "launch",
+  "start": 41.79,
+  "end": 44.28,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "interior",
+   "doors"
+  ]
+ },
+ {
+  "id": "L_19",
+  "src": "launch",
+  "start": 44.52,
+  "end": 46.18,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "nightlife"
+  ]
+ },
+ {
+  "id": "L_20",
+  "src": "launch",
+  "start": 46.42,
+  "end": 54.38,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "cars",
+   "bike",
+   "buildings"
+  ]
+ },
+ {
+  "id": "L_21",
+  "src": "launch",
+  "start": 54.62,
+  "end": 56.28,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "map",
+   "beach",
+   "plane"
+  ]
+ },
+ {
+  "id": "L_22",
+  "src": "launch",
+  "start": 56.52,
+  "end": 57.71,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "interior",
+   "gym"
+  ]
+ },
+ {
+  "id": "L_23",
+  "src": "launch",
+  "start": 57.95,
+  "end": 59.11,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "interior",
+   "chars"
+  ]
+ },
+ {
+  "id": "L_24",
+  "src": "launch",
+  "start": 59.35,
+  "end": 62.38,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "action",
+   "night"
+  ]
+ },
+ {
+  "id": "L_25",
+  "src": "launch",
+  "start": 62.62,
+  "end": 63.25,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "heights",
+   "chars"
+  ]
+ },
+ {
+  "id": "L_26",
+  "src": "launch",
+  "start": 63.49,
+  "end": 66.28,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "action",
+   "alarm",
+   "dark"
+  ]
+ },
+ {
+  "id": "L_27",
+  "src": "launch",
+  "start": 66.52,
+  "end": 67.75,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "heights",
+   "chars"
+  ]
+ },
+ {
+  "id": "L_28",
+  "src": "launch",
+  "start": 67.99,
+  "end": 71.98,
+  "crop": "1920:956:0:60",
+  "tags": [
+   "action",
+   "police",
+   "heights"
+  ]
+ },
+ {
+  "id": "L_29",
+  "src": "launch",
+  "start": 72.22,
+  "end": 73.01,
+  "crop": "1920:960:0:60",
+  "tags": [
+   "action",
+   "police"
+  ]
+ },
+ {
+  "id": "T_01",
+  "src": "trailer2",
+  "start": 8.25,
+  "end": 9.68,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "buildings",
+   "map"
+  ]
+ },
+ {
+  "id": "T_02",
+  "src": "trailer2",
+  "start": 9.92,
+  "end": 11.35,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "cars",
+   "chars"
+  ]
+ },
+ {
+  "id": "T_03",
+  "src": "trailer2",
+  "start": 11.59,
+  "end": 13.55,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "heights",
+   "climb"
+  ]
+ },
+ {
+  "id": "T_04",
+  "src": "trailer2",
+  "start": 13.79,
+  "end": 18.71,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "cars",
+   "chars"
+  ]
+ },
+ {
+  "id": "T_05",
+  "src": "trailer2",
+  "start": 18.95,
+  "end": 23.15,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "map",
+   "street"
+  ]
+ },
+ {
+  "id": "T_06",
+  "src": "trailer2",
+  "start": 23.39,
+  "end": 33.08,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "cars",
+   "driving"
+  ]
+ },
+ {
+  "id": "T_07",
+  "src": "trailer2",
+  "start": 33.32,
+  "end": 34.48,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "money",
+   "robbery"
+  ]
+ },
+ {
+  "id": "T_08",
+  "src": "trailer2",
+  "start": 34.72,
+  "end": 38.25,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "map",
+   "city",
+   "highway"
+  ]
+ },
+ {
+  "id": "T_09",
+  "src": "trailer2",
+  "start": 38.49,
+  "end": 41.48,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "beach",
+   "gym"
+  ]
+ },
+ {
+  "id": "T_10",
+  "src": "trailer2",
+  "start": 41.72,
+  "end": 45.15,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "doors",
+   "buildings",
+   "shop"
+  ]
+ },
+ {
+  "id": "T_11",
+  "src": "trailer2",
+  "start": 45.39,
+  "end": 49.71,
+  "crop": "1920:862:0:110",
+  "tags": [
+   "police",
+   "cars",
+   "driving"
+  ]
+ },
+ {
+  "id": "T_12",
+  "src": "trailer2",
+  "start": 49.95,
+  "end": 51.75,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "heights",
+   "tower",
+   "police"
+  ]
+ },
+ {
+  "id": "T_13",
+  "src": "trailer2",
+  "start": 51.99,
+  "end": 60.45,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "police",
+   "interior"
+  ]
+ },
+ {
+  "id": "T_14",
+  "src": "trailer2",
+  "start": 60.69,
+  "end": 62.98,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "chars"
+  ]
+ },
+ {
+  "id": "T_15",
+  "src": "trailer2",
+  "start": 63.22,
+  "end": 66.08,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "chars"
+  ]
+ },
+ {
+  "id": "T_18",
+  "src": "trailer2",
+  "start": 79.62,
+  "end": 81.28,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "nightlife",
+   "bar"
+  ]
+ },
+ {
+  "id": "T_19",
+  "src": "trailer2",
+  "start": 81.52,
+  "end": 82.98,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "map",
+   "water",
+   "boat"
+  ]
+ },
+ {
+  "id": "T_20",
+  "src": "trailer2",
+  "start": 83.22,
+  "end": 84.98,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "nature",
+   "water",
+   "sunset"
+  ]
+ },
+ {
+  "id": "T_21",
+  "src": "trailer2",
+  "start": 85.22,
+  "end": 85.88,
+  "crop": "1848:864:72:108",
+  "tags": [
+   "buildings",
+   "shop",
+   "night"
+  ]
+ },
+ {
+  "id": "T_22",
+  "src": "trailer2",
+  "start": 86.12,
+  "end": 88.11,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "police",
+   "street"
+  ]
+ },
+ {
+  "id": "T_23",
+  "src": "trailer2",
+  "start": 88.35,
+  "end": 89.38,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "interior",
+   "chars"
+  ]
+ },
+ {
+  "id": "T_24",
+  "src": "trailer2",
+  "start": 89.62,
+  "end": 90.25,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "chars"
+  ]
+ },
+ {
+  "id": "T_25",
+  "src": "trailer2",
+  "start": 90.49,
+  "end": 91.88,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "interior",
+   "bar"
+  ]
+ },
+ {
+  "id": "T_26",
+  "src": "trailer2",
+  "start": 92.12,
+  "end": 96.01,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "nightlife",
+   "bar"
+  ]
+ },
+ {
+  "id": "T_27",
+  "src": "trailer2",
+  "start": 96.25,
+  "end": 97.55,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "chars",
+   "beach"
+  ]
+ },
+ {
+  "id": "T_30",
+  "src": "trailer2",
+  "start": 111.42,
+  "end": 116.98,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "nightlife",
+   "street",
+   "night"
+  ]
+ },
+ {
+  "id": "T_31",
+  "src": "trailer2",
+  "start": 117.22,
+  "end": 117.81,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "chars",
+   "cars"
+  ]
+ },
+ {
+  "id": "T_32",
+  "src": "trailer2",
+  "start": 118.05,
+  "end": 118.71,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "action",
+   "cars",
+   "explosion"
+  ]
+ },
+ {
+  "id": "T_33",
+  "src": "trailer2",
+  "start": 119.75,
+  "end": 125.65,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "cars",
+   "night",
+   "police"
+  ]
+ },
+ {
+  "id": "T_34",
+  "src": "trailer2",
+  "start": 125.89,
+  "end": 126.61,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "map",
+   "street",
+   "nightlife"
+  ]
+ },
+ {
+  "id": "T_35",
+  "src": "trailer2",
+  "start": 126.85,
+  "end": 129.25,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "nightlife",
+   "night"
+  ]
+ },
+ {
+  "id": "T_36",
+  "src": "trailer2",
+  "start": 129.49,
+  "end": 134.28,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "interior"
+  ]
+ },
+ {
+  "id": "T_37",
+  "src": "trailer2",
+  "start": 134.52,
+  "end": 138.01,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "robbery",
+   "money",
+   "interior",
+   "doors"
+  ]
+ },
+ {
+  "id": "T_38",
+  "src": "trailer2",
+  "start": 138.25,
+  "end": 138.98,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "action",
+   "helicopter"
+  ]
+ },
+ {
+  "id": "T_39",
+  "src": "trailer2",
+  "start": 139.22,
+  "end": 139.91,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "action",
+   "boat"
+  ]
+ },
+ {
+  "id": "T_40",
+  "src": "trailer2",
+  "start": 140.15,
+  "end": 141.71,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "beach",
+   "water"
+  ]
+ },
+ {
+  "id": "T_41",
+  "src": "trailer2",
+  "start": 141.95,
+  "end": 143.61,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "action",
+   "plane"
+  ]
+ },
+ {
+  "id": "T_42",
+  "src": "trailer2",
+  "start": 143.85,
+  "end": 147.18,
+  "crop": "1920:864:0:108",
+  "tags": [
+   "interior",
+   "chars"
+  ]
+ }
+]

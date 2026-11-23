@@ -1,0 +1,11 @@
+{
+ "voice_id": "9iaRiYAiGlZImkI1Ruyh",
+ "tts_model": "eleven_multilingual_v2",
+ "sources": {
+  "launch": "https://storage.googleapis.com/vidiq-user-videos/bb85b679-8cb1-42e6-b30c-8f75ecd32f45/f4bcc916-4a52-4657-b1f8-b3abaea6bdbe.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1796060268&Signature=HLNnb5oXDVvrSLO%2B8qiTFc6xa1kJJcLNvJFhw9b18Z9YqS2fKbsX1k%2BZo5Tec%2Fm5Hf%2B1MU9Bo9ioE7IvFscanpxOshMKIaml6ZO60CSx7%2FkvaEH4PYitmRpvOplDpdYpUGpk7UD1IiX6HN2LWgvzZajAZYq%2F2VCYfQbzlLjGwDOkD3C5yPpBI6Zwr8zLWDNOebYQKUEm4TRs2J8HJvhpIQx0SoVLV5wRelfaVyYUHTyJd39A1%2F6G9LGfWsc6K5Kab4BRW2zY2B%2FJspQM3FJDKobuWpM27FnJ7xQpxTUzIFM3WurP3%2Bv4r4JABkZB2m4q6lalaS0NrWADed2E2v%2FUNw%3D%3D",
+  "trailer2": "https://storage.googleapis.com/vidiq-user-videos/bb85b679-8cb1-42e6-b30c-8f75ecd32f45/60656bd0-4c06-4687-a87f-5bec3513c809.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1796060291&Signature=DsZJ89dCBObZEXt3FKZN2K08l3B4gRMRzgEpvO61nAuEwaWOfru0x%2FH5WOKSRVlK2ld%2FOjwOWjiyCP2IRHkZgeXKnoPF1Lmg15YWvG9gArhw8BXtrPxKoO0xytVNVMnHaTWO%2FbfEaGmJ2SCpzcLorci02zZIckcFe%2BHvBdMBwtf1E6bK73CGJ4GLpy55XMz2t720VJx8rJgqwww0V9LlPaSy0stCfTQl2Hcw77DMxWbBytU%2BRy2WDHuvqws7GQJtV5kMKWS46RZCyF8UUUDD0UMXZM%2F72KIHlMiAbtTrYnikJWpeN6ZjTt7D4KTiV2FSOBlQrguSYoxwcAbsrDGeWg%3D%3D"
+ },
+ "sources_expire": "2026-12-30 (si caducan: vidiq_video_upload con https://www.youtube.com/watch?v=rz1B4B2yBZY y https://www.youtube.com/watch?v=VQRLujxTm3c, gratis, y actualizar estas URLs)",
+ "outro_url": "https://assets.vidiq.com/compositions/bb85b679-8cb1-42e6-b30c-8f75ecd32f45/s6uky7dfnkxemvosjozmjwy1.mp4",
+ "music_url": "https://ai-music-tracks.s3.us-east-1.amazonaws.com/bb85b679-8cb1-42e6-b30c-8f75ecd32f45/2a8916cf-d1a7-45be-b980-6beca359c0a9.mp3"
+}
