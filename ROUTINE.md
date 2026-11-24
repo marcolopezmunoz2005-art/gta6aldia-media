@@ -13,6 +13,10 @@ archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo p
 - Instagram: vidiq_instagram_owner_insights (platformAccountId 29026053427037843, mode reels) → vistas, alcance, guardados, compartidos, % visto.
 - YouTube: vidiq_channel_analytics (dimensions video) solo si vidiq_balance > 20; si no, omitir.
 - TikTok: no hay lectura gratis; omitir salvo que haya créditos de sobra.
+- Métricas que pasa Marco a mano (TikTok y YouTube): mirar la carpeta metricas/ del repo PRIVADO (/home/claude/gta6aldia-privado/metricas/).
+  Acepta capturas (png/jpg: abrirlas con Read), CSV exportados de TikTok Studio / YouTube Studio o un metricas.md con números.
+  Pasar los números a state/scoreboard.csv (nota "dato de Marco, captura del DD/MM HH:MM") y apuntar en state/learning.md qué archivos se han leído.
+  No copiar las capturas al repo público. Si la carpeta no existe o está vacía, seguir sin esos datos.
 - Apuntar métricas en state/scoreboard.csv (12 h, 24 h, 72 h). No inventar números: vacío si no hay dato.
 
 ## 2. Aprender
