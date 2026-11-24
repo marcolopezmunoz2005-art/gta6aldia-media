@@ -1,0 +1,12 @@
+{
+ "id": "2026-11-24_a",
+ "hook": "4 TRUCOS DEL COCHE\nQUE CASI NADIE USA",
+ "lines": [
+  {"text": "Cuatro trucos del coche en GTA 6 que casi nadie usa.", "caption": "", "tags": ["cars", "driving"]},
+  {"text": "Mantén círculo o B y te escondes bajo el salpicadero.", "caption": "MANTÉN CÍRCULO / B\nTE ESCONDES", "color": "#FFFFFF", "tags": ["police", "cars"]},
+  {"text": "Doble toque en triángulo o Y y bajas con el motor encendido.", "caption": "2 TOQUES TRIÁNGULO / Y\nMOTOR ENCENDIDO", "color": "#FFFFFF", "tags": ["cars", "street"]},
+  {"text": "Mantén la cruceta arriba y hablas con la gente sin bajarte.", "caption": "MANTÉN CRUCETA ARRIBA\nHABLAS SIN BAJARTE", "color": "#FFFFFF", "tags": ["chars", "street"]},
+  {"text": "Y pulsa el stick derecho para gritar a otros conductores. ¿Cuál no sabías?", "caption": "PULSA R3 / RS\n¿CUÁL NO SABÍAS?", "color": "#FFD23F", "tags": ["highway", "driving", "cars"]}
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "2026-11-24_b",
+ "hook": "GTA 6 SE ACTUALIZA:\nESTO ARREGLA",
+ "lines": [
+  {"text": "GTA 6 tiene parche nuevo y arregla cosas que te estaban amargando.", "caption": "", "tags": ["city", "arrival", "map"]},
+  {"text": "Menos cuelgues, y el tiempo ya no se queda atascado durante horas.", "caption": "MENOS CUELGUES\nY EL TIEMPO CAMBIA", "color": "#FFFFFF", "tags": ["nature", "beach", "sunset"]},
+  {"text": "El autoguardado vuelve a funcionar bien.", "caption": "AUTOGUARDADO\nARREGLADO", "color": "#FFFFFF", "tags": ["interior", "phone"]},
+  {"text": "Y ya puedes quitarte de encima el nivel de búsqueda.", "caption": "YA PUEDES PERDER\nA LA POLICÍA", "color": "#FFFFFF", "tags": ["police", "action"]},
+  {"text": "Es la versión 1.002.002, en PS5 y Xbox. ¿Te había pasado algo?", "caption": "VERSIÓN 1.002.002\n¿TE HABÍA PASADO?", "color": "#FFD23F", "tags": ["nightlife", "night"]}
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

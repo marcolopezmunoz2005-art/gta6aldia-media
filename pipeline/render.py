@@ -86,10 +86,12 @@ def tts_full(lines, key, voice_id, model, dest_mp3, dest_json):
 # ---------- selección de planos ----------
 def pick_shots(catalog, usage, tags, need, used_ids, rng):
     """Devuelve [(shot, start, dur)] que suman `need` segundos."""
+    today = date.today().isoformat()
+
     def score(s):
         overlap = len(set(s["tags"]) & set(tags))
         last = usage.get(s["id"], "2000-01-01")
-        return (-overlap, last, rng.random())
+        return (last >= today, -overlap, last, rng.random())   # primero, planos no usados hoy en otro vídeo
 
     pool = [s for s in catalog if s["id"] not in used_ids]
     pool.sort(key=score)
@@ -101,8 +103,13 @@ def pick_shots(catalog, usage, tags, need, used_ids, rng):
         if seg < 1.0:
             continue
         dur = min(left if left < 2.3 else rng.uniform(1.3, 1.9), seg)
-        if left - dur < 0.7 and left - dur > 0.05:          # evitar un último plano demasiado corto
-            dur = min(left, seg)
+        if 0.05 < left - dur < 0.7:                          # evitar que el siguiente plano sea un destello
+            if seg >= left:
+                dur = left
+            elif left - 0.8 >= 1.0:
+                dur = min(seg, left - 0.8)
+            else:
+                continue                                     # este plano no encaja; probar con otro
         start = s["start"] + rng.uniform(0, max(0.0, seg - dur))
         picks.append((s, round(start, 2), round(dur, 3)))
         used_ids.add(s["id"])
