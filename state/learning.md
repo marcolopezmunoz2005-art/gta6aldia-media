@@ -1,12 +1,15 @@
 # Aprendizajes
 
 ## Ganan
-- (Provisional, < 24 h, solo Instagram) El "CÓMO" de un solo truco (edificios con interior) retiene mejor: 56 % visto y el skip más bajo (44,7 %), con 1 guardado.
-- (Provisional) La lista "3 cosas…" sacó más vistas (186), pero salió la primera y con más tiempo en el aire; no es comparable aún.
+- (≈20 h, 23/11) TikTok es la plataforma que más mueve: 3.178 vistas en total frente a ~3.400 en YouTube y 513 en Instagram.
+- La lista "3 cosas que GTA 6 NO te explica" arrasa en TikTok: 1.644 vistas (el doble que los otros), 115 likes (7 %) y 13 guardados. Fue el primero en salir, pero una hora de ventaja no explica el doble.
+- El easter egg es el que más se guarda: 16 guardados en 818 vistas en TikTok (2 %, el mejor ratio).
+- En Instagram, el "CÓMO" de un solo truco (edificios) retiene mejor: 56 % visto.
 
 ## Pierden
-- (Provisional) Las listas de 24 s pierden a mitad: 40 % visto. El easter egg (17 s) tuvo más likes (5) pero 44 % visto.
-- 0 compartidos y 0 comentarios en los tres: las preguntas finales no están generando respuesta.
+- "Qué edificios puedes ENTRAR" es el más flojo en TikTok: 716 vistas, 5,4 % de likes y solo 3 guardados (aunque en IG retiene bien y en YouTube va igual que los otros).
+- 0 comentarios en los 9 posts (TikTok, IG y YouTube): las preguntas finales ("¿Cuál no sabías?", "¿Lo has encontrado ya?") no generan respuesta. Probar preguntas de elegir entre dos opciones.
+- En YouTube los tres van parecidos (1–1,2 K): ahí el tema importa menos que en TikTok.
 
 ## Reglas actuales
 - Punto de partida: los clips del tráiler oficial ganan a los posts solo de texto; los "CÓMO…" se guardan y se comparten.
