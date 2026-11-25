@@ -25,3 +25,14 @@ Aviso de vidIQ: "too_close" (1 h entre posts); se mantuvieron las horas de Marco
 | 2 | 2026-11-26_b | CÓMO: escanear con WAiNK antes de robar | 14:30 | 16620ce7-3d78-4482-acec-a7b545e37436 |
 | 3 | 2026-11-26_c | truco: silenciador = menos poli | 21:30 | 38a935ff-2881-4a7c-88c6-ff035f2e9f99 |
 | 4 | 2026-11-26_d | gimnasio: pesas = vida, cardio = resistencia | sin hora | 41ad1cb3-d073-4ceb-85f3-262d50aad4d7 |
+
+Elegidos por Marco el 25/11 a las 23:3x: récord PlayStation (09:00), gimnasio (13:00) y poli/silenciador (19:00), con horas suyas (no las del Juego A).
+"El de escanea el coche no lo subas": 2026-11-26_b (WAiNK, 16620ce7-3d78-4482-acec-a7b545e37436) queda como borrador para otro día.
+TikTok e IG programados en vidIQ el 25/11 a las 23:38. YouTube: el límite de 3 subidas al día no se reinicia hasta las 09:00, así que se publica a las 09:02 con una tarea programada (trig_015mYHc4PeGE16CkZn9CbRQ5); el de las 09:00 saldrá en YouTube unos minutos tarde.
+Queja de Marco: dice que el 25/11 pidió no publicar el de la serpiente y salió (aquí se apuntó "1, 2, 4", con 2 = serpiente). A partir de ahora, antes de publicar, repetirle los elegidos POR NOMBRE.
+
+| Fecha | Hora | Vídeo | Tema / gancho | Destinos | Enlaces | IDs vidIQ (postId) |
+|---|---|---|---|---|---|---|
+| 2026-11-26 | 09:00 | GTA 6 rompe el récord de PlayStation | noticia: 39 M de jugadores en PS5 (PlayStation) | TikTok, IG (YT tras las 09:00) | pendiente | efb1aa1b-603d-4be7-9024-c3068f1feaae |
+| 2026-11-26 | 13:00 | El gimnasio no es de adorno | pesas = vida, cardio = resistencia | TikTok, IG, YT | pendiente | 41ad1cb3-d073-4ceb-85f3-262d50aad4d7 |
+| 2026-11-26 | 19:00 | Que la poli tarde más en llegar | silenciador = menos poli | TikTok, IG, YT | pendiente | 38a935ff-2881-4a7c-88c6-ff035f2e9f99 |
