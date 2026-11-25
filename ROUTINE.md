@@ -59,4 +59,8 @@ archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo p
 - Cuando elija: con vidiq_social_post_draft_update poner a los 3 elegidos las 3 franjas en el orden en que los dijo (el que no tenga hora
   la recibe), comprobar que todas las horas siguen en el futuro (si una ya pasó, usar la siguiente franja libre y decírselo),
   y entonces vidiq_social_post_publish de cada uno. El no elegido se queda como borrador.
+- Límite de YouTube (plan gratis de vidIQ): **3 subidas al día**, que se cuentan al publicar (YouTube se sube al momento con publishAt)
+  y se reinician a medianoche de Los Ángeles (**09:00 en Madrid**). Si Marco elige antes de las 09:00 y ese día ya se gastaron las 3
+  subidas (p. ej. el 25/11 se gastaron a las 17:11), publicar solo TikTok e IG (publicationIds) y avisarle de que YouTube
+  tiene que publicarse después de las 09:00 (volver a llamar a vidiq_social_post_publish con la publicationId de YouTube).
 - Apuntar en state/log.md (hora, postId y enlaces) y en scoreboard.csv. Commit y push.

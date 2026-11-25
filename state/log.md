@@ -10,11 +10,10 @@
 | 2026-11-24 | 22:30 | GTA 5 vs GTA 6: el primer día | comparativa: 800 M $ vs 3.790 M $ (Take-Two) | TikTok, IG, YT | https://www.youtube.com/watch?v=jdJc417A-H8 | f78df291-5891-413d-ae6f-9a48aa6ad833 |
 
 Aprobado por Marco el 24/11 a las 17:3x. TikTok e IG programados en vidIQ a su hora; YouTube subido con publishAt (enlaces de TikTok/IG: pedir con vidiq_social_post_status mañana).
+| 2026-11-25 | 18:00 | 3 reglas para no perder tu dinero | lista: perder dinero al morir/arresto, tablas sueltas, cajeros | TikTok, IG, YT | https://www.youtube.com/watch?v=L2DnehX6dbA | 2c23e81f-cb13-43f1-9428-fef6049699ce |
+| 2026-11-25 | 19:00 | El secreto de la serpiente de Jason | secreto: dar de comer a Dolores = más Focus | TikTok, IG, YT | https://www.youtube.com/watch?v=ygUaOAg3aIA | eaacd3cc-52a5-48d8-bf5c-432d7e299d3e |
+| 2026-11-25 | 20:00 | ¿Coche destrozado? No vayas al taller | CÓMO: llamar al mecánico (pagando) | TikTok, IG, YT | https://www.youtube.com/watch?v=Hgjb67sbK8k | 63b5218d-02f8-4023-bcaa-5592e047b6a6 |
 
-### 25/11 — tanda especial (18:00 · 19:00 · 20:00), borradores esperando la elección de Marco
-| Nº | Vídeo | postId (borrador) | Hora prevista |
-|---|---|---|---|
-| 1 | 2026-11-25_a · 3 reglas para no perder tu dinero | 2c23e81f-cb13-43f1-9428-fef6049699ce | 18:00 |
-| 2 | 2026-11-25_b · El secreto de la serpiente de Jason | eaacd3cc-52a5-48d8-bf5c-432d7e299d3e | 19:00 |
-| 3 | 2026-11-25_c · Elige la hora del día | 83dd7c90-a889-4994-8b02-af96e33f5403 | 20:00 |
-| 4 | 2026-11-25_d · ¿Coche destrozado? Llama al mecánico | 63b5218d-02f8-4023-bcaa-5592e047b6a6 | sin hora |
+Elegidos por Marco el 25/11 a las 17:1x: "1, 2, 4" (tanda especial 18:00 · 19:00 · 20:00). TikTok e IG programados en vidIQ; YouTube subido con publishAt.
+No elegido (queda como borrador sin hora): 2026-11-25_c · Elige la hora del día · 83dd7c90-a889-4994-8b02-af96e33f5403.
+Aviso de vidIQ: "too_close" (1 h entre posts); se mantuvieron las horas de Marco.
