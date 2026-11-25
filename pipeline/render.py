@@ -30,6 +30,7 @@ FONTS = HERE.parent / "fonts"
 W, H, FPS = 1080, 1920, 30
 LINE_GAP = 0.28      # pausa entre frases (s)
 LEAD_IN = 0.15       # silencio antes de la primera frase (s)
+BATCH_DATE = None    # fecha de la tanda (sale del id del spec, AAAA-MM-DD_x): la rutina corre la noche anterior
 
 
 def run(cmd):
@@ -86,7 +87,7 @@ def tts_full(lines, key, voice_id, model, dest_mp3, dest_json):
 # ---------- selección de planos ----------
 def pick_shots(catalog, usage, tags, need, used_ids, rng):
     """Devuelve [(shot, start, dur)] que suman `need` segundos."""
-    today = date.today().isoformat()
+    today = BATCH_DATE or date.today().isoformat()
 
     def score(s):
         overlap = len(set(s["tags"]) & set(tags))
@@ -273,6 +274,9 @@ def main():
     cfg = json.loads((HERE / "config.json").read_text())
     catalog = json.loads((HERE / "catalog.json").read_text())
     spec = json.loads(Path(a.spec).read_text())
+    global BATCH_DATE
+    if len(spec["id"]) >= 10 and spec["id"][4] == "-" and spec["id"][7] == "-":
+        BATCH_DATE = spec["id"][:10]
     usage_path = Path(a.usage)
     usage = json.loads(usage_path.read_text()) if usage_path.exists() else {}
     rng = random.Random(a.seed if a.seed is not None else hash(spec["id"]))
@@ -359,7 +363,7 @@ def main():
          "-c:a", "copy", "-movflags", "+faststart", "-t", f"{total:.2f}", str(out)])
 
     # 6) uso de planos para variar en días siguientes
-    today = date.today().isoformat()
+    today = BATCH_DATE or date.today().isoformat()
     for s, _, _ in plan:
         usage[s["id"]] = today
     usage_path.write_text(json.dumps(usage, indent=1))

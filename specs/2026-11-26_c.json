@@ -1,0 +1,45 @@
+{
+ "id": "2026-11-26_c",
+ "hook": "QUE LA POLI TARDE\nMÁS EN LLEGAR",
+ "lines": [
+  {
+   "text": "Truco para que la poli tarde más en llegar en GTA 6.",
+   "caption": "",
+   "tags": [
+    "police",
+    "action"
+   ]
+  },
+  {
+   "text": "Cuanto más ruido haces, antes aparece.",
+   "caption": "MÁS RUIDO =\nPOLI ANTES",
+   "color": "#FFFFFF",
+   "tags": [
+    "police",
+    "street",
+    "alarm"
+   ]
+  },
+  {
+   "text": "Con silenciador, la respuesta es menor.",
+   "caption": "SILENCIADOR =\nMENOS POLI",
+   "color": "#FFFFFF",
+   "tags": [
+    "robbery",
+    "interior",
+    "dark"
+   ]
+  },
+  {
+   "text": "Y tienes más tiempo para el botín. ¿Sigilo o a lo loco?",
+   "caption": "¿SIGILO O\nA LO LOCO?",
+   "color": "#FFD23F",
+   "tags": [
+    "money",
+    "robbery",
+    "doors"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

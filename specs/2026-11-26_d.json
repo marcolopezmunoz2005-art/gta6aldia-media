@@ -1,0 +1,53 @@
+{
+ "id": "2026-11-26_d",
+ "hook": "EL GIMNASIO NO\nES DE ADORNO",
+ "lines": [
+  {
+   "text": "En GTA 6 el gimnasio no es de adorno.",
+   "caption": "",
+   "tags": [
+    "gym",
+    "beach"
+   ]
+  },
+  {
+   "text": "Las pesas te suben la vida.",
+   "caption": "PESAS =\nMÁS VIDA",
+   "color": "#FFFFFF",
+   "tags": [
+    "gym",
+    "interior"
+   ]
+  },
+  {
+   "text": "Y el cardio, la resistencia.",
+   "caption": "CARDIO =\nMÁS RESISTENCIA",
+   "color": "#FFFFFF",
+   "tags": [
+    "beach",
+    "chars",
+    "nature"
+   ]
+  },
+  {
+   "text": "El último parche arregló la barra del peso muerto.",
+   "caption": "PARCHE 1.002.002\nPESO MUERTO OK",
+   "color": "#FFFFFF",
+   "tags": [
+    "interior",
+    "chars"
+   ]
+  },
+  {
+   "text": "¿Tú qué entrenas primero: pesas o cardio?",
+   "caption": "¿PESAS O CARDIO?",
+   "color": "#FFD23F",
+   "tags": [
+    "beach",
+    "water",
+    "chars"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

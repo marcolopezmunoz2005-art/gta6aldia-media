@@ -32,3 +32,13 @@
 - Variable: la HORA (las tres seguidas, con una hora de diferencia). Formato fijo: 4–5 frases, ~16–21 s + cierre, pregunta final de elegir entre dos.
 - Sin noticia oficial nueva en 24–48 h (solo "según informes": port de PC retirado, posible parche → rumor, no se usa). 4 candidatos: lista de dinero, secreto de la serpiente, elegir la hora, mecánico.
 - Métricas leídas el 25/11 16:32: Instagram (vidIQ, gratis). TikTok/YouTube del 24/11: sin capturas de Marco (no hay carpeta metricas/ en el repo privado). vidIQ: 5 créditos → no se lee YouTube.
+
+## Lectura del 25/11 23:15 (IG gratis por vidIQ; vidIQ: 5 créditos → YouTube no se lee; TikTok/YouTube: sin carpeta metricas/ en el repo privado)
+- La NOTICIA oficial (parche) sigue creciendo: 911 vistas a ~50 h (5,4× el resto, que se quedan en 145–190), 8 compartidos y 10 guardados. Es el único post que IG empuja más allá del primer día → **las noticias oficiales van primero cuando las haya**.
+- Tanda 18-19-20 h (25/11), solo ~5–6 h: 143 / 151 / 130 vistas en IG. % visto: serpiente 49,9 %, mecánico 48,9 %, dinero 41,5 %. Los vídeos de 16 s retienen más que el de 21 s. Sin conclusiones hasta las 24 h.
+- Comentarios: siguen en 0 también con la pregunta de elegir entre dos (3 posts, pocas horas). Esperar a las 24 h.
+- Editor: los planos usados la noche anterior se marcaban con la fecha UTC y bloqueaban la tanda siguiente (se repetían planos entre vídeos). Arreglado: la fecha de uso sale del id del spec.
+
+## Prueba de hoy (26/11, Juego A: 09:00 · 14:30 · 21:30)
+- Variable: la FRANJA (primer día de la rotación A/B/C). Formato fijo: 4–5 frases, 16–20 s + cierre, pregunta de elegir entre dos, cierre "SÍGUENOS" en todos (la prueba del cierre pasa a cuando acabe la rotación).
+- Candidatos: noticia oficial (PlayStation: 39 M de jugadores), CÓMO coche (WAiNK), truco policía (silenciador), gimnasio.

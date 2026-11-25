@@ -1,0 +1,45 @@
+{
+ "id": "2026-11-26_b",
+ "hook": "ANTES DE ROBAR UN\nCOCHE, HAZ ESTO",
+ "lines": [
+  {
+   "text": "Antes de robar un coche en GTA 6, haz esto.",
+   "caption": "",
+   "tags": [
+    "cars",
+    "street"
+   ]
+  },
+  {
+   "text": "Escanéalo con WAiNK.",
+   "caption": "ESCANÉALO\nCON WAiNK",
+   "color": "#FFFFFF",
+   "tags": [
+    "phone",
+    "cars",
+    "chars"
+   ]
+  },
+  {
+   "text": "Verás si lleva rastreador y qué seguridad tiene.",
+   "caption": "¿RASTREADOR?\n¿SEGURIDAD?",
+   "color": "#FFFFFF",
+   "tags": [
+    "cars",
+    "police",
+    "alarm"
+   ]
+  },
+  {
+   "text": "Si la tiene, mejor busca otro. ¿Lo escaneas o te arriesgas?",
+   "caption": "¿ESCANEAS O\nTE ARRIESGAS?",
+   "color": "#FFD23F",
+   "tags": [
+    "driving",
+    "cars",
+    "night"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}
