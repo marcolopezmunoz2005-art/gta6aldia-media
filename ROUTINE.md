@@ -47,6 +47,9 @@ archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo p
   - Juego B: 08:00 · 13:30 · 20:00
   - Juego C: 10:30 · 16:00 · 22:30
 - Excepción: si en el mensaje de disparo o en el chat se dan horas concretas (p. ej. el 25/11: 18:00 · 19:00 · 20:00 de hoy), usar esas.
+- Desde el 25/11 Marco decide las horas al elegir ("yo te digo las horas el día anterior"): las franjas de la rotación son solo una
+  propuesta para los borradores. Si en su respuesta da horas (p. ej. el 26/11: 09:00 · 13:00 · 19:00), mandan las suyas.
+  En el mensaje, después de la pregunta, añadir: "Si quieres otras horas, dímelas con los números."
 - Apuntar la hora de cada post en scoreboard.csv para comparar franjas (vistas a 24 h por franja y por plataforma).
 
 ## 5. Borradores y elección
@@ -56,6 +59,7 @@ archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo p
 - Enviar a Marco (SendUserMessage + notificación push): los 4 vídeos NUMERADOS en orden de preferencia (enlace raw de GitHub, texto,
   una línea de por qué), las 3 horas y una línea de qué se ha aprendido. Preguntar: "¿Cuáles publico? Responde con 3 números (p. ej. 1, 3, 4) o 'elige tú'."
 - Sin respuesta de Marco no se publica nada. "elige tú" = publicar los candidatos 1, 2 y 3.
+- Antes de publicar, repetirle los elegidos POR NOMBRE (no solo por número), con su hora (el 25/11 se publicó el de la serpiente y él dice que no lo quería).
 - Cuando elija: con vidiq_social_post_draft_update poner a los 3 elegidos las 3 franjas en el orden en que los dijo (el que no tenga hora
   la recibe), comprobar que todas las horas siguen en el futuro (si una ya pasó, usar la siguiente franja libre y decírselo),
   y entonces vidiq_social_post_publish de cada uno. El no elegido se queda como borrador.
