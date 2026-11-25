@@ -1,0 +1,52 @@
+{
+ "id": "2026-11-25_c",
+ "hook": "ELIGE LA HORA\nDEL DÍA EN GTA 6",
+ "lines": [
+  {
+   "text": "En GTA 6 tú eliges la hora.",
+   "caption": "",
+   "tags": [
+    "sunset",
+    "map"
+   ]
+  },
+  {
+   "text": "Cruceta arriba: miras la hora en el móvil.",
+   "caption": "CRUCETA ARRIBA\nMIRA LA HORA",
+   "color": "#FFFFFF",
+   "tags": [
+    "phone",
+    "chars"
+   ]
+  },
+  {
+   "text": "Duerme en casa de Jason y elige a qué hora despiertas.",
+   "caption": "DUERME EN CASA\nELIGE LA HORA",
+   "color": "#FFFFFF",
+   "tags": [
+    "interior",
+    "night"
+   ]
+  },
+  {
+   "text": "De noche hay tiendas cerradas y la policía actúa distinto.",
+   "caption": "DE NOCHE: TIENDAS\nCERRADAS Y OTRA POLI",
+   "color": "#FFFFFF",
+   "tags": [
+    "night",
+    "shop",
+    "police"
+   ]
+  },
+  {
+   "text": "¿Tú das los golpes de día o de noche?",
+   "caption": "¿DE DÍA O\nDE NOCHE?",
+   "color": "#FFD23F",
+   "tags": [
+    "robbery",
+    "nightlife"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

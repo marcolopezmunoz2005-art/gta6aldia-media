@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-25_b",
+ "hook": "EL SECRETO DE LA\nSERPIENTE DE JASON",
+ "lines": [
+  {
+   "text": "Jason tiene una serpiente en casa: se llama Dolores.",
+   "caption": "",
+   "tags": [
+    "interior",
+    "chars"
+   ]
+  },
+  {
+   "text": "Si le das de comer, al principio del juego te sube el Focus.",
+   "caption": "DALE DE COMER\n= MÁS FOCUS",
+   "color": "#FFFFFF",
+   "tags": [
+    "interior",
+    "dark"
+   ]
+  },
+  {
+   "text": "Es una mejora gratis, y la tienes desde el principio.",
+   "caption": "MEJORA GRATIS",
+   "color": "#FFFFFF",
+   "tags": [
+    "chars",
+    "beach"
+   ]
+  },
+  {
+   "text": "¿Tú le das de comer o ni te acercas?",
+   "caption": "¿LE DAS DE COMER\nO NI TE ACERCAS?",
+   "color": "#FFD23F",
+   "tags": [
+    "chars",
+    "nature"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "2026-11-25_d",
+ "hook": "¿COCHE DESTROZADO?\nNO VAYAS AL TALLER",
+ "lines": [
+  {
+   "text": "¿Coche destrozado en GTA 6? No hace falta ir al taller.",
+   "caption": "",
+   "tags": [
+    "cars",
+    "explosion",
+    "action"
+   ]
+  },
+  {
+   "text": "Tras una de las primeras misiones, puedes llamar a tu mecánico.",
+   "caption": "LLAMA A TU\nMECÁNICO",
+   "color": "#FFFFFF",
+   "tags": [
+    "phone",
+    "cars"
+   ]
+  },
+  {
+   "text": "Te lo arregla casi en cualquier sitio, aunque cobra.",
+   "caption": "DONDE ESTÉS\n(PAGANDO)",
+   "color": "#FFFFFF",
+   "tags": [
+    "driving",
+    "highway"
+   ]
+  },
+  {
+   "text": "¿Tú lo llamas o robas otro coche?",
+   "caption": "¿LO LLAMAS O\nROBAS OTRO?",
+   "color": "#FFD23F",
+   "tags": [
+    "cars",
+    "street"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

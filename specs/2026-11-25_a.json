@@ -1,0 +1,43 @@
+{
+ "id": "2026-11-25_a",
+ "hook": "3 REGLAS PARA NO\nPERDER TU DINERO",
+ "lines": [
+  {
+   "text": "Tres reglas para no perder tu dinero en GTA 6.",
+   "caption": "",
+   "tags": [
+    "money",
+    "robbery"
+   ]
+  },
+  {
+   "text": "Uno: si mueres o te pillan, pierdes lo que llevas.",
+   "caption": "1. MUERES O TE PILLAN\n= LO PIERDES",
+   "color": "#FFFFFF",
+   "tags": [
+    "police",
+    "action"
+   ]
+  },
+  {
+   "text": "Dos: escóndelo bajo las tablas sueltas del cuarto de Jason.",
+   "caption": "2. TABLAS SUELTAS\nCUARTO DE JASON",
+   "color": "#FFFFFF",
+   "tags": [
+    "interior",
+    "chars"
+   ]
+  },
+  {
+   "text": "Tres: con el banco abierto, usa los cajeros. ¿Banco o tablas?",
+   "caption": "3. USA LOS CAJEROS\n¿BANCO O TABLAS?",
+   "color": "#FFD23F",
+   "tags": [
+    "money",
+    "street",
+    "shop"
+   ]
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}
