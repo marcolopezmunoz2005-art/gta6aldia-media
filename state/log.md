@@ -10,3 +10,11 @@
 | 2026-11-24 | 22:30 | GTA 5 vs GTA 6: el primer día | comparativa: 800 M $ vs 3.790 M $ (Take-Two) | TikTok, IG, YT | https://www.youtube.com/watch?v=jdJc417A-H8 | f78df291-5891-413d-ae6f-9a48aa6ad833 |
 
 Aprobado por Marco el 24/11 a las 17:3x. TikTok e IG programados en vidIQ a su hora; YouTube subido con publishAt (enlaces de TikTok/IG: pedir con vidiq_social_post_status mañana).
+
+### 25/11 — tanda especial (18:00 · 19:00 · 20:00), borradores esperando la elección de Marco
+| Nº | Vídeo | postId (borrador) | Hora prevista |
+|---|---|---|---|
+| 1 | 2026-11-25_a · 3 reglas para no perder tu dinero | 2c23e81f-cb13-43f1-9428-fef6049699ce | 18:00 |
+| 2 | 2026-11-25_b · El secreto de la serpiente de Jason | eaacd3cc-52a5-48d8-bf5c-432d7e299d3e | 19:00 |
+| 3 | 2026-11-25_c · Elige la hora del día | 83dd7c90-a889-4994-8b02-af96e33f5403 | 20:00 |
+| 4 | 2026-11-25_d · ¿Coche destrozado? Llama al mecánico | 63b5218d-02f8-4023-bcaa-5592e047b6a6 | sin hora |
