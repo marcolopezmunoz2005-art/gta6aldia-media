@@ -13,7 +13,7 @@ spec.json:
   "outro_caption": "HASTA MAÑANA"
 }
 
-Hace: voz con ElevenLabs en una sola toma (entonación uniforme; tiempos de cada frase por alineado), elige planos del catálogo por etiquetas
+Hace (desde el 25/11 también: subtítulos palabra a palabra con la palabra que suena en amarillo, etiqueta con lo esencial de cada frase y movimiento distinto en cada plano; "word_captions": false en el spec vuelve al estilo antiguo): voz con ElevenLabs en una sola toma (entonación uniforme; tiempos de cada frase por alineado), elige planos del catálogo por etiquetas
 (sin repetir dentro del vídeo y priorizando los menos usados), quita las franjas negras, recorta a 9:16
 con un zoom suave, subtítulos con Inter Display, música con ducking bajo la voz y cierre animado.
 """
@@ -120,14 +120,68 @@ def pick_shots(catalog, usage, tags, need, used_ids, rng):
     return picks
 
 
-def render_shot(src, crop, start, dur, dest):
+MOTIONS = ["in", "out", "left", "right", "punch"]
+
+
+def motion_expr(kind, frames):
+    """Expresiones de zoompan: cada plano se mueve distinto (acercar, alejar, desplazar o golpe de zoom)."""
+    f = max(frames, 1)
+    cx, cy = "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"
+    if kind == "out":
+        return f"1.10-0.08*on/{f}", cx, cy
+    if kind == "left":
+        return "1.10", f"(iw-iw/zoom)*(1-on/{f})", cy
+    if kind == "right":
+        return "1.10", f"(iw-iw/zoom)*on/{f}", cy
+    if kind == "punch":                                  # entra con golpe de zoom y se asienta
+        return f"1.04+0.10*max(0,1-on/6)+0.03*on/{f}", cx, cy
+    return f"1+0.08*on/{f}", cx, cy                       # "in"
+
+
+def render_shot(src, crop, start, dur, dest, motion="in"):
     frames = max(1, round(dur * FPS))
+    z, x, y = motion_expr(motion, frames)
     vf = (f"crop={crop},scale=-2:{H},crop={W}:{H},setsar=1,fps={FPS},"
-          f"zoompan=z='1+0.06*on/{frames}':d=1:s={W}x{H}:fps={FPS},"
-          f"eq=contrast=1.05:saturation=1.1")
+          f"zoompan=z='{z}':x='{x}':y='{y}':d=1:s={W}x{H}:fps={FPS},"
+          f"eq=contrast=1.06:saturation=1.12")
     run(["ffmpeg", "-y", "-ss", f"{start:.2f}", "-t", f"{dur:.3f}", "-i", str(src), "-vf", vf,
          "-frames:v", str(frames), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
          "-pix_fmt", "yuv420p", str(dest)])
+
+
+def word_times(lines, al, lead):
+    """Tiempos de cada palabra (a partir del alineado por caracteres de ElevenLabs): [(linea, palabra, ini, fin)]."""
+    starts, ends = al["character_start_times_seconds"], al["character_end_times_seconds"]
+    out, pos = [], 0
+    for li, l in enumerate(lines):
+        l = l.strip()
+        i = 0
+        while i < len(l):
+            if l[i] == " ":
+                i += 1
+                continue
+            j = i
+            while j < len(l) and l[j] != " ":
+                j += 1
+            a, b = min(pos + i, len(starts) - 1), min(pos + j - 1, len(ends) - 1)
+            out.append((li, l[i:j], lead + starts[a], lead + ends[b]))
+            i = j
+        pos += len(l) + 1
+    return out
+
+
+def chunk_words(words, max_words=3, max_chars=16):
+    """Agrupa palabras de la misma frase en bloques cortos para los subtítulos palabra a palabra."""
+    chunks, cur = [], []
+    for w in words:
+        n = sum(len(x[1]) + 1 for x in cur) + len(w[1])
+        if cur and (w[0] != cur[0][0] or len(cur) >= max_words or n > max_chars):
+            chunks.append(cur)
+            cur = []
+        cur.append(w)
+    if cur:
+        chunks.append(cur)
+    return chunks
 
 
 # ---------- subtítulos ASS ----------
@@ -144,7 +198,7 @@ def ass_color(hex_rgb, alpha="00"):
     return f"&H{alpha}{b}{g}{r}".upper()
 
 
-def build_ass(spec, timeline, total, outro_start, dest):
+def build_ass(spec, timeline, total, outro_start, dest, words=None):
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -154,8 +208,10 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Brand,Inter Display ExtraBold,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,2,0,1,2,0,8,60,60,70,1
-Style: Hook,Inter Display Black,76,&H00FFFFFF,&H00FFFFFF,&H00882EFF,&H00882EFF,0,0,0,0,100,100,0,0,3,22,0,8,90,90,230,1
+Style: Brand,Inter Display ExtraBold,28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,2,0,1,2,0,8,60,60,215,1
+Style: Hook,Inter Display Black,76,&H00FFFFFF,&H00FFFFFF,&H00882EFF,&H00882EFF,0,0,0,0,100,100,0,0,3,22,0,8,90,90,300,1
+Style: Label,Inter Display Black,54,&H00FFFFFF,&H00FFFFFF,&H00141414,&H00141414,0,0,0,0,100,100,0,0,3,16,0,8,90,90,320,1
+Style: Word,Inter Display Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,8,3,5,70,70,0,1
 Style: Cap,Inter Display Black,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,3,5,80,80,0,1
 Style: Outro,Inter Display Black,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,0,5,80,80,0,1
 
@@ -167,15 +223,36 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     first_end = timeline[0][1]
     hook = spec["hook"].replace("\n", "\\N")
     ev.append(f"Dialogue: 1,{ass_time(0)},{ass_time(first_end)},Hook,,0,0,0,,{{\\fad(80,120)}}{hook}")
-    for i, ((st, en), line) in enumerate(zip(timeline, spec["lines"])):
-        if i == 0 and not line.get("caption"):
-            continue
-        cap = line.get("caption", "").replace("\n", "\\N")
-        if not cap:
-            continue
-        col = ass_color(line.get("color", "#FFFFFF"))
-        pop = "{\\fscx88\\fscy88\\t(0,120,\\fscx100\\fscy100)\\fad(60,80)}"
-        ev.append(f"Dialogue: 2,{ass_time(st)},{ass_time(en)},Cap,,0,0,0,,{{\\pos({W//2},{int(H*0.64)})\\c{col}}}{pop}{cap}")
+    if words:
+        # Subtítulos palabra a palabra (la que suena en amarillo) + etiqueta con lo esencial de cada frase
+        for i, ((st, en), line) in enumerate(zip(timeline, spec["lines"])):
+            cap = line.get("caption", "").replace("\n", "\\N")
+            if i == 0 or not cap:
+                continue
+            col = ass_color(line.get("color", "#FFFFFF"))
+            ev.append(f"Dialogue: 1,{ass_time(st)},{ass_time(en + 0.2)},Label,,0,0,0,,{{\\fad(80,80)\\c{col}}}{cap}")
+        chunks = chunk_words(words)
+        for ci, ch in enumerate(chunks):
+            nxt = chunks[ci + 1][0][2] if ci + 1 < len(chunks) else outro_start
+            for wi, (li, w, ws, we) in enumerate(ch):
+                w_end = ch[wi + 1][2] if wi + 1 < len(ch) else min(nxt, we + 0.6)
+                parts = []
+                for k, (_, ww, _, _) in enumerate(ch):
+                    t = ww.upper()
+                    parts.append(f"{{\\c&H003FD2FF&}}{t}{{\\c&H00FFFFFF&}}" if k == wi else t)
+                pop = "{\\fscx92\\fscy92\\t(0,90,\\fscx100\\fscy100)}" if wi == 0 else ""
+                ev.append(f"Dialogue: 2,{ass_time(ws)},{ass_time(max(w_end, ws + 0.05))},Word,,0,0,0,,"
+                          f"{{\\pos({W//2},{int(H*0.62)})}}{pop}{' '.join(parts)}")
+    else:
+        for i, ((st, en), line) in enumerate(zip(timeline, spec["lines"])):
+            if i == 0 and not line.get("caption"):
+                continue
+            cap = line.get("caption", "").replace("\n", "\\N")
+            if not cap:
+                continue
+            col = ass_color(line.get("color", "#FFFFFF"))
+            pop = "{\\fscx88\\fscy88\\t(0,120,\\fscx100\\fscy100)\\fad(60,80)}"
+            ev.append(f"Dialogue: 2,{ass_time(st)},{ass_time(en)},Cap,,0,0,0,,{{\\pos({W//2},{int(H*0.64)})\\c{col}}}{pop}{cap}")
     if spec.get("outro_caption"):
         oc = spec["outro_caption"].replace("\n", "\\N")
         ev.append(f"Dialogue: 2,{ass_time(outro_start + 0.25)},{ass_time(total)},Outro,,0,0,0,,{{\\pos({W//2},{int(H*0.68)})\\fad(150,0)}}{oc}")
@@ -228,9 +305,12 @@ def main():
         seg_end = timeline[i + 1][0] if i + 1 < len(timeline) else voice_end
         plan += pick_shots(catalog, usage, line.get("tags", []), seg_end - seg_start, used, rng)
     clips = []
+    last_motion = None
     for k, (s, st, d) in enumerate(plan):
         dest = work / "clips" / f"{k:02d}.mp4"
-        render_shot(src[s["src"]], s["crop"], st, d, dest)
+        motion = rng.choice([m for m in MOTIONS if m != last_motion])
+        last_motion = motion
+        render_shot(src[s["src"]], s["crop"], st, d, dest, motion)
         clips.append(dest)
     outro_norm = work / "clips" / "zz_outro.mp4"
     run(["ffmpeg", "-y", "-i", str(outro), "-vf", f"scale={W}:{H},setsar=1,fps={FPS}", "-an",
@@ -244,7 +324,11 @@ def main():
 
     # 3) subtítulos
     ass = work / "subs.ass"
-    build_ass(spec, timeline, total, outro_start, ass)
+    words = None
+    if spec.get("word_captions", True):
+        al = json.loads((work / "voice_alignment.json").read_text())
+        words = word_times([l["text"] for l in spec["lines"]], al, LEAD_IN)
+    build_ass(spec, timeline, total, outro_start, ass, words)
 
     # 4) audio: voz + música con ducking
     inputs, filt = [], []
