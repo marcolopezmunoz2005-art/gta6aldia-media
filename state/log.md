@@ -17,3 +17,11 @@ Aprobado por Marco el 24/11 a las 17:3x. TikTok e IG programados en vidIQ a su h
 Elegidos por Marco el 25/11 a las 17:1x: "1, 2, 4" (tanda especial 18:00 · 19:00 · 20:00). TikTok e IG programados en vidIQ; YouTube subido con publishAt.
 No elegido (queda como borrador sin hora): 2026-11-25_c · Elige la hora del día · 83dd7c90-a889-4994-8b02-af96e33f5403.
 Aviso de vidIQ: "too_close" (1 h entre posts); se mantuvieron las horas de Marco.
+
+### Candidatos del 26/11 (borradores en vidIQ, pendientes de que Marco elija; Juego A: 09:00 · 14:30 · 21:30)
+| # | Vídeo | Tema | Hora en borrador | postId |
+|---|---|---|---|---|
+| 1 | 2026-11-26_a | noticia: PlayStation, 39 M de jugadores en PS5 | 09:00 | efb1aa1b-603d-4be7-9024-c3068f1feaae |
+| 2 | 2026-11-26_b | CÓMO: escanear con WAiNK antes de robar | 14:30 | 16620ce7-3d78-4482-acec-a7b545e37436 |
+| 3 | 2026-11-26_c | truco: silenciador = menos poli | 21:30 | 38a935ff-2881-4a7c-88c6-ff035f2e9f99 |
+| 4 | 2026-11-26_d | gimnasio: pesas = vida, cardio = resistencia | sin hora | 41ad1cb3-d073-4ceb-85f3-262d50aad4d7 |
