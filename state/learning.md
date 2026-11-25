@@ -20,3 +20,8 @@
 - Variable: el PILAR. Mismo formato (5 frases, ~20 s + cierre, botones/cifras en pantalla), tres pilares distintos:
   19:30 truco "CÓMO" con botones (4 trucos del coche) · 21:00 noticia oficial (parche 1.002.002) · 22:30 comparativa GTA 5 vs GTA 6 (cifras de ventas).
 - Medir mañana a las 24 h: % visto, skip, guardados y comentarios por pilar.
+
+## Próximas pruebas (en este orden, una por día)
+1. Horas: 25/11 a las 18:00 · 19:00 · 20:00; desde el 26/11 rotar los juegos A/B/C de ROUTINE.md.
+2. Cierre "SÍGUENOS" de 3 s: la mitad de los vídeos sin él (final en bucle) → ¿sube el % visto?
+3. Pregunta final de elegir entre dos (ya se aplica a todos desde el 25/11, porque había 0 comentarios en 15 posts).
