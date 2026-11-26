@@ -50,3 +50,13 @@ Límite de YouTube: 3/3 gastadas el 26/11; se reinicia el 27/11 a las 09:00 (Mad
 | 4 | 2026-11-27_d | noticia: Take-Two, 32,5 M de unidades antes de salir + 99 en Metacritic | sin hora | 8dcf69cb-017b-440d-bd1f-bb058883960a |
 
 Borradores creados el 26/11 a las 23:2x. YouTube: 3/3 subidas gastadas el 26/11 → hasta las 09:00 del 27/11 no se puede subir ninguno; si Marco elige de noche, YouTube del de las 08:00 sale tarde.
+
+Elegidos por Marco el 26/11 a las 23:3x. Primero dijo 1, 2 y 3 a las 13:00 · 17:00 · 21:00 y luego cambió el de 1 estrella por el de Take-Two y reordenó las horas: comida 13:00, Take-Two 17:00, viaje rápido 21:00 (horas suyas, no las del Juego B).
+No elegido (queda como borrador sin hora): 2026-11-27_c · Con 1 estrella, no huyas · 9f6e45cf-d32f-4d00-8bf5-4b2b66cefcc8.
+TikTok e IG programados en vidIQ el 26/11 a las 23:37. YouTube: el límite se reinicia a las 09:00, así que se publica a las 09:02 con una tarea programada (trig_01BdYkruM5YnEFVfQTKaGsMH). Aviso de vidIQ "too_close" en el de las 13:00; se mantiene la hora de Marco.
+
+| Fecha | Hora | Vídeo | Tema / gancho | Destinos | Enlaces | IDs vidIQ (postId) |
+|---|---|---|---|---|---|---|
+| 2026-11-27 | 13:00 | Come ANTES de salir en GTA 6 | comida = vida; bebida = resistencia y Focus | TikTok, IG, YT | (YouTube a las 09:02) | 426776d5-ab4b-4c14-b011-3f720b2e2189 |
+| 2026-11-27 | 17:00 | GTA 6 vendió ESTO antes de salir | noticia: Take-Two, 32,5 M de unidades + 99 en Metacritic | TikTok, IG, YT | (YouTube a las 09:02) | 8dcf69cb-017b-440d-bd1f-bb058883960a |
+| 2026-11-27 | 21:00 | El viaje rápido ESCONDIDO de GTA 6 | taxi + 100 $ = llegas al instante | TikTok, IG, YT | (YouTube a las 09:02) | 4001df3a-a1a0-422d-b45d-85c6785353a5 |
