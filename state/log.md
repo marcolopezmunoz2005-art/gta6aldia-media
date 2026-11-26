@@ -33,6 +33,10 @@ Queja de Marco: dice que el 25/11 pidió no publicar el de la serpiente y salió
 
 | Fecha | Hora | Vídeo | Tema / gancho | Destinos | Enlaces | IDs vidIQ (postId) |
 |---|---|---|---|---|---|---|
-| 2026-11-26 | 09:00 | GTA 6 rompe el récord de PlayStation | noticia: 39 M de jugadores en PS5 (PlayStation) | TikTok, IG (YT tras las 09:00) | pendiente | efb1aa1b-603d-4be7-9024-c3068f1feaae |
-| 2026-11-26 | 13:00 | El gimnasio no es de adorno | pesas = vida, cardio = resistencia | TikTok, IG, YT | pendiente | 41ad1cb3-d073-4ceb-85f3-262d50aad4d7 |
-| 2026-11-26 | 19:00 | Que la poli tarde más en llegar | silenciador = menos poli | TikTok, IG, YT | pendiente | 38a935ff-2881-4a7c-88c6-ff035f2e9f99 |
+| 2026-11-26 | 09:00 | GTA 6 rompe el récord de PlayStation | noticia: 39 M de jugadores en PS5 (PlayStation) | TikTok, IG, YT | https://www.youtube.com/watch?v=NS-ZTPLJtpo · https://www.instagram.com/reel/DgMoG8GuPV-/ · https://www.tiktok.com/@gta6.al.dia/video/7712386872206445863 | efb1aa1b-603d-4be7-9024-c3068f1feaae |
+| 2026-11-26 | 13:00 | El gimnasio no es de adorno | pesas = vida, cardio = resistencia | TikTok, IG, YT | https://www.youtube.com/watch?v=LX2jN6vBDcI (TikTok/IG a las 13:00) | 41ad1cb3-d073-4ceb-85f3-262d50aad4d7 |
+| 2026-11-26 | 19:00 | Que la poli tarde más en llegar | silenciador = menos poli | TikTok, IG, YT | https://www.youtube.com/watch?v=tRuWMxZrtic (TikTok/IG a las 19:00) | 38a935ff-2881-4a7c-88c6-ff035f2e9f99 |
+
+26/11 09:02: YouTube subido. Récord sin hora (salió ~09:03, la de las 09:00 ya había pasado); gimnasio con publishAt 13:00 y poli con publishAt 19:00.
+OJO: al publicar TikTok/IG por publicationIds, vidIQ borró el publishAt del destino de YouTube en los borradores (salía null). Hubo que volver a ponerlo antes de publicar YouTube: comprobar siempre con draft_get.
+Límite de YouTube: 3/3 gastadas el 26/11; se reinicia el 27/11 a las 09:00 (Madrid).
