@@ -12,7 +12,7 @@ Página fan sin cara de GTA 6. Todo en **español de España**. Zona horaria **E
 TikTok (elegido por Marco): privacyLevel PUBLIC_TO_EVERYONE, allowComment true, musicUsageConfirmed true. YouTube: público, categoryId 20 (Gaming).
 
 ## Ritmo
-- 3 vídeos al día, elegidos por Marco entre **4 candidatos**. Horas: ver "Horarios" en ROUTINE.md (prueba de franjas desde el 26/11).
+- 3 vídeos al día, elegidos por Marco entre **4 candidatos**. Horas por defecto 13:00 · 17:00 · 21:00 (ver "Horarios" en ROUTINE.md).
 - Duración 12–18 s + cierre de 3 s. Gancho en el primer segundo.
 
 ## Voz y presupuesto

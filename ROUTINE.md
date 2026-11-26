@@ -40,17 +40,16 @@ archivo elevenlabs_key.txt (no copiarla nunca a ningún otro sitio, ni al repo p
 - Ordenar los 4 de mejor a peor según learning.md (1 = el que creo que funcionará mejor).
 - Commit y push de videos/, specs/ y state/ (git -c push.negotiate=true push).
 
-## Horarios (prueba de horas, desde el 26/11)
+## Horarios (desde el 27/11)
 - La rutina corre a las **23:12** y prepara los vídeos del **día siguiente**. Marco elige por la noche o por la mañana.
-- Rotar estas franjas, un juego por día, en este orden (mirar en log.md cuál se usó el último día y pasar al siguiente):
-  - Juego A: 09:00 · 14:30 · 21:30
-  - Juego B: 08:00 · 13:30 · 20:00
-  - Juego C: 10:30 · 16:00 · 22:30
-- Excepción: si en el mensaje de disparo o en el chat se dan horas concretas (p. ej. el 25/11: 18:00 · 19:00 · 20:00 de hoy), usar esas.
-- Desde el 25/11 Marco decide las horas al elegir ("yo te digo las horas el día anterior"): las franjas de la rotación son solo una
-  propuesta para los borradores. Si en su respuesta da horas (p. ej. el 26/11: 09:00 · 13:00 · 19:00), mandan las suyas.
+- Horas por defecto (decisión de Marco del 26/11: "lo de mediodía y tarde ha funcionado mejor"): **13:00 · 17:00 · 21:00**.
+  La rotación de franjas A/B/C (26–27/11) queda parada mientras Marco no diga otra cosa.
+- Excepción: si en el mensaje de disparo o en el chat se dan horas concretas, usar esas.
+- Marco decide las horas al elegir: las de arriba son la propuesta para los borradores. Si en su respuesta da horas, mandan las suyas.
   En el mensaje, después de la pregunta, añadir: "Si quieres otras horas, dímelas con los números."
-- Apuntar la hora de cada post en scoreboard.csv para comparar franjas (vistas a 24 h por franja y por plataforma).
+- YouTube: como las 3 horas son después de las 09:00, si Marco elige de noche se programan TikTok e IG en el momento y YouTube
+  se publica a las 09:02 (send_later), cuando se reinicia el límite (ver sección 5).
+- Apuntar la hora de cada post en scoreboard.csv (vistas a 24 h por franja y por plataforma).
 
 ## 5. Borradores y elección
 - vidiq_video_upload con https://raw.githubusercontent.com/marcolopezmunoz2005-art/gta6aldia-media/main/videos/X.mp4 (gratis).
