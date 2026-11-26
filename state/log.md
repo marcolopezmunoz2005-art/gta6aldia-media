@@ -44,3 +44,9 @@ Límite de YouTube: 3/3 gastadas el 26/11; se reinicia el 27/11 a las 09:00 (Mad
 ### Candidatos del 27/11 (Juego B: 08:00 · 13:30 · 20:00; pendientes de que Marco elija)
 | # | Vídeo | Tema | Hora en borrador | postId |
 |---|---|---|---|---|
+| 1 | 2026-11-27_a | CÓMO: comer y beber = más vida, resistencia y Focus | 08:00 | 426776d5-ab4b-4c14-b011-3f720b2e2189 |
+| 2 | 2026-11-27_b | truco: viaje rápido pagando 100 $ al taxi | 13:30 | 4001df3a-a1a0-422d-b45d-85c6785353a5 |
+| 3 | 2026-11-27_c | truco: con 1 estrella, habla con el poli | 20:00 | 9f6e45cf-d32f-4d00-8bf5-4b2b66cefcc8 |
+| 4 | 2026-11-27_d | noticia: Take-Two, 32,5 M de unidades antes de salir + 99 en Metacritic | sin hora | 8dcf69cb-017b-440d-bd1f-bb058883960a |
+
+Borradores creados el 26/11 a las 23:2x. YouTube: 3/3 subidas gastadas el 26/11 → hasta las 09:00 del 27/11 no se puede subir ninguno; si Marco elige de noche, YouTube del de las 08:00 sale tarde.
