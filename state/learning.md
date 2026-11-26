@@ -42,3 +42,15 @@
 ## Prueba de hoy (26/11, Juego A: 09:00 · 14:30 · 21:30)
 - Variable: la FRANJA (primer día de la rotación A/B/C). Formato fijo: 4–5 frases, 16–20 s + cierre, pregunta de elegir entre dos, cierre "SÍGUENOS" en todos (la prueba del cierre pasa a cuando acabe la rotación).
 - Candidatos: noticia oficial (PlayStation: 39 M de jugadores), CÓMO coche (WAiNK), truco policía (silenciador), gimnasio.
+
+## Lectura del 26/11 23:15 (IG gratis por vidIQ; vidIQ: 5 créditos → YouTube no se lee; TikTok/YouTube: no hay carpeta metricas/ en el repo privado)
+- **El gimnasio (13:00) arrasa en IG: 1.202 vistas en ~10 h** (7–8× el resto, que se queda en 140–190), 29 likes, 8 guardados y el **primer comentario** de la cuenta. % visto 46 %. Es un truco de "mejora tu personaje" (pesas = vida, cardio = resistencia) con pregunta de elegir entre dos.
+- La noticia de PlayStation (09:00) se queda en 154 vistas a ~14 h y 36 % visto (el peor %). La noticia del parche funcionó porque era útil para el jugador; una cifra de récord, no.
+- Silenciador (19:00): 160 vistas a ~4 h y 53 % visto (el mejor % de la tanda). Esperar a las 24 h.
+- Tanda del 25/11 a ~28 h: 154 / 169 / 142 vistas; no despega ninguna. Las 18-19-20 h no mejoran a las otras franjas.
+- Con un solo dato no hay regla, pero hipótesis para hoy: **trucos de "sube tus stats / ahorra tiempo" > cifras y récords**.
+
+## Prueba de hoy (27/11, Juego B: 08:00 · 13:30 · 20:00)
+- Variable: sigue la FRANJA (segundo día de la rotación). Formato fijo: 4 frases, 14–17 s + cierre, pregunta de elegir entre dos.
+- Candidatos (orden): comer y beber = más vida/resistencia/Focus (mismo tipo que el gimnasio) · viaje rápido pagando 100 $ al taxi · con 1 estrella habla con el poli · noticia Take-Two (32,5 M antes de salir, 99 en Metacritic).
+- OJO YouTube: si Marco elige antes de las 09:00, el de las 08:00 no puede subir a YouTube hasta las 09:00 (límite de 3/día gastado el 26/11).

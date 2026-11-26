@@ -1,0 +1,44 @@
+{
+ "id": "2026-11-27_c",
+ "hook": "CON 1 ESTRELLA,\nNO HUYAS",
+ "lines": [
+  {
+   "text": "Con una estrella en GTA 6, no salgas corriendo.",
+   "caption": "",
+   "tags": [
+    "police",
+    "street"
+   ]
+  },
+  {
+   "text": "Guarda el arma y usa el Focus sobre el policía.",
+   "caption": "GUARDA EL ARMA\nY USA EL FOCUS",
+   "tags": [
+    "police",
+    "cars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Si sale la opción de hablar, puedes quitarte la estrella.",
+   "caption": "HABLA =\nADIÓS ESTRELLA",
+   "tags": [
+    "police",
+    "street",
+    "cars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Tú hablas con el poli o pisas a fondo?",
+   "caption": "¿HABLAS O\nPISAS A FONDO?",
+   "tags": [
+    "cars",
+    "driving",
+    "highway"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

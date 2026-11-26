@@ -1,0 +1,42 @@
+{
+ "id": "2026-11-27_d",
+ "hook": "GTA 6 VENDIÓ ESTO\nANTES DE SALIR",
+ "lines": [
+  {
+   "text": "GTA 6 batió un récord antes incluso de salir.",
+   "caption": "",
+   "tags": [
+    "map",
+    "buildings"
+   ]
+  },
+  {
+   "text": "Take-Two dice que vendió 32,5 millones de unidades antes del lanzamiento.",
+   "caption": "32,5 MILLONES\nANTES DE SALIR",
+   "tags": [
+    "nightlife",
+    "chars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y tiene un 99 en Metacritic.",
+   "caption": "99 EN\nMETACRITIC",
+   "tags": [
+    "action",
+    "cars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Para ti merece el 99 o es mucho?",
+   "caption": "¿MERECE EL 99\nO ES MUCHO?",
+   "tags": [
+    "beach",
+    "chars"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

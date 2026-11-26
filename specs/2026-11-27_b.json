@@ -1,0 +1,45 @@
+{
+ "id": "2026-11-27_b",
+ "hook": "EL VIAJE RÁPIDO\nESCONDIDO DE GTA 6",
+ "lines": [
+  {
+   "text": "GTA 6 no tiene viaje rápido… pero hay un truco.",
+   "caption": "",
+   "tags": [
+    "map",
+    "city",
+    "highway"
+   ]
+  },
+  {
+   "text": "Pide un taxi desde el móvil.",
+   "caption": "PIDE UN TAXI\nDESDE EL MÓVIL",
+   "tags": [
+    "phone",
+    "cars",
+    "street"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Paga cien dólares más y te saltas el viaje.",
+   "caption": "+100 $ =\nLLEGAS AL INSTANTE",
+   "tags": [
+    "driving",
+    "cars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Pagas los cien o conduces tú?",
+   "caption": "¿PAGAS O\nCONDUCES TÚ?",
+   "tags": [
+    "cars",
+    "night",
+    "driving"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

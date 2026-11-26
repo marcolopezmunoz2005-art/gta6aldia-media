@@ -40,3 +40,7 @@ Queja de Marco: dice que el 25/11 pidió no publicar el de la serpiente y salió
 26/11 09:02: YouTube subido. Récord sin hora (salió ~09:03, la de las 09:00 ya había pasado); gimnasio con publishAt 13:00 y poli con publishAt 19:00.
 OJO: al publicar TikTok/IG por publicationIds, vidIQ borró el publishAt del destino de YouTube en los borradores (salía null). Hubo que volver a ponerlo antes de publicar YouTube: comprobar siempre con draft_get.
 Límite de YouTube: 3/3 gastadas el 26/11; se reinicia el 27/11 a las 09:00 (Madrid).
+
+### Candidatos del 27/11 (Juego B: 08:00 · 13:30 · 20:00; pendientes de que Marco elija)
+| # | Vídeo | Tema | Hora en borrador | postId |
+|---|---|---|---|---|

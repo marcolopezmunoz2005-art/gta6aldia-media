@@ -1,0 +1,43 @@
+{
+ "id": "2026-11-27_a",
+ "hook": "COME ANTES DE\nSALIR EN GTA 6",
+ "lines": [
+  {
+   "text": "En GTA 6, come y bebe antes de salir de casa.",
+   "caption": "",
+   "tags": [
+    "interior",
+    "chars"
+   ]
+  },
+  {
+   "text": "La comida te sube la vida máxima.",
+   "caption": "COMIDA =\nMÁS VIDA",
+   "tags": [
+    "bar",
+    "shop",
+    "interior"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y la bebida, la resistencia y el Focus.",
+   "caption": "BEBIDA =\nRESISTENCIA Y FOCUS",
+   "tags": [
+    "nightlife",
+    "bar"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Tú comes antes o sales con hambre?",
+   "caption": "¿COMES O SALES\nCON HAMBRE?",
+   "tags": [
+    "street",
+    "cars"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}
