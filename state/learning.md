@@ -54,3 +54,14 @@
 - Variable: sigue la FRANJA (segundo día de la rotación). Formato fijo: 4 frases, 14–17 s + cierre, pregunta de elegir entre dos.
 - Candidatos (orden): comer y beber = más vida/resistencia/Focus (mismo tipo que el gimnasio) · viaje rápido pagando 100 $ al taxi · con 1 estrella habla con el poli · noticia Take-Two (32,5 M antes de salir, 99 en Metacritic).
 - OJO YouTube: si Marco elige antes de las 09:00, el de las 08:00 no puede subir a YouTube hasta las 09:00 (límite de 3/día gastado el 26/11).
+
+## Lectura del 27/11 23:15 (IG gratis por vidIQ; vidIQ: 5 créditos → YouTube no se lee; TikTok/YouTube: no hay carpeta metricas/ en el repo privado)
+- El gimnasio se estanca en IG: 1.202 vistas a 10 h → 1.211 a ~34 h. Fue un pico del primer día (como el parche), no un crecimiento sostenido.
+- Comida (13:00, mismo tipo "sube tus stats" que el gimnasio): 147 vistas a ~11 h y 40,5 % visto → **no repite el éxito del gimnasio**. La hipótesis "stats > cifras" se debilita: el gimnasio puede haber sido suerte del algoritmo o el tema (la barra del gimnasio salía en el parche).
+- Take-Two (17:00): 166 vistas a ~7 h, 44,9 % visto (el mejor de la tanda). Viaje rápido (21:00): 126 a ~3 h. Sin conclusiones hasta las 24 h.
+- En IG todo lo que no es "noticia útil" o "gimnasio" se queda en 125–170 vistas: el techo actual de la cuenta con 543 seguidores. Falta el dato de TikTok, que es donde más se mueve (pedir capturas a Marco).
+
+## Prueba de hoy (28/11, horas fijas 13:00 · 17:00 · 21:00)
+- Sin noticia oficial nueva en 24–48 h (solo rumores de un parche 01.002.003 y estimaciones de terceros) → 4 trucos de pilares distintos.
+- Variable: el FORMATO del truco con horas fijas. Lista "3 cosas" (poli) vs "CÓMO" de 1 truco (Focus, armas, auriculares). La lista "3 cosas" fue la que más vistas hizo en TikTok (23/11).
+- Candidatos (orden): Focus en la galería de tiro · 3 cosas que te delatan ante la poli · no pierdas tus armas al morir · radio a pie con auriculares.

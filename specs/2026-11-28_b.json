@@ -1,0 +1,52 @@
+{
+ "id": "2026-11-28_b",
+ "hook": "3 COSAS QUE TE\nDELATAN ANTE LA POLI",
+ "lines": [
+  {
+   "text": "La poli de GTA 6 te reconoce por tres cosas.",
+   "caption": "",
+   "tags": [
+    "police",
+    "night"
+   ]
+  },
+  {
+   "text": "Tu ropa: cámbiate, aunque sea con la del maletero.",
+   "caption": "1. TU ROPA\n→ CÁMBIATE",
+   "tags": [
+    "chars",
+    "street"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Tu coche: píntalo o cambia de coche.",
+   "caption": "2. TU COCHE\n→ PÍNTALO O CÁMBIALO",
+   "tags": [
+    "cars",
+    "driving"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y el arma a la vista: guárdala.",
+   "caption": "3. EL ARMA\n→ GUÁRDALA",
+   "tags": [
+    "action",
+    "police"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Te cambias de ropa o de coche?",
+   "caption": "¿ROPA O COCHE?",
+   "tags": [
+    "police",
+    "cars",
+    "night"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

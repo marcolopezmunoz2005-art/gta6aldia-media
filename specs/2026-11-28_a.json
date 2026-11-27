@@ -1,0 +1,51 @@
+{
+ "id": "2026-11-28_a",
+ "hook": "EL TRUCO PARA\nSUBIR EL FOCUS",
+ "lines": [
+  {
+   "text": "¿Más Focus en GTA 6? Ve a la galería de tiro.",
+   "caption": "",
+   "tags": [
+    "action",
+    "chars"
+   ]
+  },
+  {
+   "text": "En el rancho Rodgers, paga el pase de cinco dólares.",
+   "caption": "RANCHO RODGERS\nPASE DE 5 $",
+   "tags": [
+    "nature",
+    "chars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Cada intento del reto te sube el Focus para siempre.",
+   "caption": "CADA INTENTO =\n+FOCUS PARA SIEMPRE",
+   "tags": [
+    "action",
+    "police"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y más Focus es más cámara lenta al apuntar.",
+   "caption": "MÁS CÁMARA LENTA\nAL APUNTAR",
+   "tags": [
+    "action",
+    "chars"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Practicas o vas a lo loco?",
+   "caption": "¿PRACTICAS O\nVAS A LO LOCO?",
+   "tags": [
+    "action",
+    "night"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "2026-11-28_d",
+ "hook": "LA RADIO\nSIN COCHE",
+ "lines": [
+  {
+   "text": "En GTA 6 puedes escuchar la radio sin ir en coche.",
+   "caption": "",
+   "tags": [
+    "street",
+    "city"
+   ]
+  },
+  {
+   "text": "Compra unos auriculares en Zeke's Gadgets.",
+   "caption": "AURICULARES EN\nZEKE'S GADGETS",
+   "tags": [
+    "shop",
+    "interior"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y vas andando por Vice City con tu emisora.",
+   "caption": "TU EMISORA\nANDANDO",
+   "tags": [
+    "street",
+    "nightlife",
+    "beach"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Tú vas con música o escuchando la calle?",
+   "caption": "¿MÚSICA O\nLA CALLE?",
+   "tags": [
+    "nightlife",
+    "night"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "2026-11-28_c",
+ "hook": "NO PIERDAS TUS\nARMAS AL MORIR",
+ "lines": [
+  {
+   "text": "Si mueres en GTA 6, pierdes las armas que no son tuyas.",
+   "caption": "",
+   "tags": [
+    "action",
+    "police"
+   ]
+  },
+  {
+   "text": "Solo son tuyas las que compras.",
+   "caption": "SOLO SON TUYAS\nLAS QUE COMPRAS",
+   "tags": [
+    "shop",
+    "interior"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Esas las recuperas en Ammu-Nation o en el maletero.",
+   "caption": "RECUPÉRALAS EN LA\nTIENDA O EL MALETERO",
+   "tags": [
+    "cars",
+    "interior"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "Y el botín de las bolsas también se pierde.",
+   "caption": "EL BOTÍN EN BOLSAS\nTAMBIÉN SE PIERDE",
+   "tags": [
+    "money",
+    "robbery"
+   ],
+   "color": "#FFFFFF"
+  },
+  {
+   "text": "¿Las compras o se las robas al enemigo?",
+   "caption": "¿COMPRAS O\nROBAS?",
+   "tags": [
+    "action",
+    "night"
+   ],
+   "color": "#FFD23F"
+  }
+ ],
+ "outro_caption": "SÍGUENOS\nHASTA MAÑANA"
+}
