@@ -57,6 +57,8 @@ TikTok e IG programados en vidIQ el 26/11 a las 23:37. YouTube: el límite se re
 
 | Fecha | Hora | Vídeo | Tema / gancho | Destinos | Enlaces | IDs vidIQ (postId) |
 |---|---|---|---|---|---|---|
-| 2026-11-27 | 13:00 | Come ANTES de salir en GTA 6 | comida = vida; bebida = resistencia y Focus | TikTok, IG, YT | (YouTube a las 09:02) | 426776d5-ab4b-4c14-b011-3f720b2e2189 |
-| 2026-11-27 | 17:00 | GTA 6 vendió ESTO antes de salir | noticia: Take-Two, 32,5 M de unidades + 99 en Metacritic | TikTok, IG, YT | (YouTube a las 09:02) | 8dcf69cb-017b-440d-bd1f-bb058883960a |
-| 2026-11-27 | 21:00 | El viaje rápido ESCONDIDO de GTA 6 | taxi + 100 $ = llegas al instante | TikTok, IG, YT | (YouTube a las 09:02) | 4001df3a-a1a0-422d-b45d-85c6785353a5 |
+| 2026-11-27 | 13:00 | Come ANTES de salir en GTA 6 | comida = vida; bebida = resistencia y Focus | TikTok, IG, YT | https://www.youtube.com/watch?v=N2K3-8t6LMk (TikTok/IG a su hora) | 426776d5-ab4b-4c14-b011-3f720b2e2189 |
+| 2026-11-27 | 17:00 | GTA 6 vendió ESTO antes de salir | noticia: Take-Two, 32,5 M de unidades + 99 en Metacritic | TikTok, IG, YT | https://www.youtube.com/watch?v=WmenFeJKntY (TikTok/IG a su hora) | 8dcf69cb-017b-440d-bd1f-bb058883960a |
+| 2026-11-27 | 21:00 | El viaje rápido ESCONDIDO de GTA 6 | taxi + 100 $ = llegas al instante | TikTok, IG, YT | https://www.youtube.com/watch?v=oWP8gj0rvcc (TikTok/IG a su hora) | 4001df3a-a1a0-422d-b45d-85c6785353a5 |
+
+27/11 09:03: YouTube subido con publishAt (13:00 · 17:00 · 21:00), privado hasta su hora. Otra vez vidIQ había borrado el publishAt de YouTube al publicar TikTok/IG: se volvió a poner antes de publicar. Límite de YouTube: 3/3 gastadas el 27/11; se reinicia el 28/11 a las 09:00.
