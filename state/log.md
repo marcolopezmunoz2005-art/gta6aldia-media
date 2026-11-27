@@ -62,3 +62,13 @@ TikTok e IG programados en vidIQ el 26/11 a las 23:37. YouTube: el límite se re
 | 2026-11-27 | 21:00 | El viaje rápido ESCONDIDO de GTA 6 | taxi + 100 $ = llegas al instante | TikTok, IG, YT | https://www.youtube.com/watch?v=oWP8gj0rvcc (TikTok/IG a su hora) | 4001df3a-a1a0-422d-b45d-85c6785353a5 |
 
 27/11 09:03: YouTube subido con publishAt (13:00 · 17:00 · 21:00), privado hasta su hora. Otra vez vidIQ había borrado el publishAt de YouTube al publicar TikTok/IG: se volvió a poner antes de publicar. Límite de YouTube: 3/3 gastadas el 27/11; se reinicia el 28/11 a las 09:00.
+
+### Candidatos del 28/11 (horas fijas 13:00 · 17:00 · 21:00; pendientes de que Marco elija)
+| # | Vídeo | Tema | Hora en borrador | postId |
+|---|---|---|---|---|
+| 1 | 2026-11-28_a | CÓMO: subir el Focus en la galería de tiro (rancho Rodgers, pase de 5 $) | 13:00 | 502fe9ea-97a4-4a84-9a9d-9be4ba620a83 |
+| 2 | 2026-11-28_b | lista: 3 cosas que te delatan ante la poli (ropa, coche, arma) | 17:00 | 62b7ac84-5f3a-4f84-abef-295f32f7d72f |
+| 3 | 2026-11-28_c | CÓMO: no pierdas tus armas al morir (solo las compradas; Ammu-Nation o maletero) | 21:00 | 29252098-83df-4fb8-8849-ac49a9f56b71 |
+| 4 | 2026-11-28_d | secreto: la radio sin coche (auriculares en Zeke's Gadgets) | sin hora | bd665d5d-4e11-44a8-b4b4-55d3c721e535 |
+
+Borradores creados el 27/11 a las 23:5x. Voz: 223 + 196 + 223 + 179 = 821 caracteres. YouTube: 3/3 subidas gastadas el 27/11 → se reinicia el 28/11 a las 09:00; si Marco elige de noche, YouTube se publica a las 09:02.
