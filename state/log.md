@@ -72,3 +72,12 @@ TikTok e IG programados en vidIQ el 26/11 a las 23:37. YouTube: el límite se re
 | 4 | 2026-11-28_d | secreto: la radio sin coche (auriculares en Zeke's Gadgets) | sin hora | bd665d5d-4e11-44a8-b4b4-55d3c721e535 |
 
 Borradores creados el 27/11 a las 23:5x. Voz: 223 + 196 + 223 + 179 = 821 caracteres. YouTube: 3/3 subidas gastadas el 27/11 → se reinicia el 28/11 a las 09:00; si Marco elige de noche, YouTube se publica a las 09:02.
+
+Elegidos por Marco el 28/11 a las 12:1x: "2, 3, 4" a las 12:30 · 16:00 · 20:00 (horas suyas). No elegido (queda como borrador con hora 13:00 sin publicar): 2026-11-28_a · El truco para subir el Focus · 502fe9ea-97a4-4a84-9a9d-9be4ba620a83.
+TikTok e IG programados en vidIQ el 28/11 a las 12:12; YouTube subido a la vez con publishAt (límite ya reiniciado a las 09:00). Aviso de vidIQ "too_close" en el de las 12:30; se mantiene la hora de Marco. Límite de YouTube: 3/3 gastadas el 28/11; se reinicia el 29/11 a las 09:00.
+
+| Fecha | Hora | Vídeo | Tema / gancho | Destinos | Enlaces | IDs vidIQ (postId) |
+|---|---|---|---|---|---|---|
+| 2026-11-28 | 12:30 | 3 cosas que te delatan ante la poli | ropa, coche y arma a la vista | TikTok, IG, YT | https://www.youtube.com/watch?v=f6_GNLfC-H4 (TikTok/IG a su hora) | 62b7ac84-5f3a-4f84-abef-295f32f7d72f |
+| 2026-11-28 | 16:00 | No pierdas tus armas al morir | solo son tuyas las compradas; Ammu-Nation o maletero | TikTok, IG, YT | https://www.youtube.com/watch?v=4YmmPbNf1Ik (TikTok/IG a su hora) | 29252098-83df-4fb8-8849-ac49a9f56b71 |
+| 2026-11-28 | 20:00 | La radio SIN coche | auriculares en Zeke's Gadgets | TikTok, IG, YT | https://www.youtube.com/watch?v=VO-8erl5nKg (TikTok/IG a su hora) | bd665d5d-4e11-44a8-b4b4-55d3c721e535 |
